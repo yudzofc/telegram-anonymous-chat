@@ -1,2 +1,4 @@
-# telegram-anonymous-chat
-bot telegram anonymous chat
+YUK!!
+Jangan lupa bergabung ke grup https://t.me/caritemanh
+
+# Bot menggunakan library amanobot
