@@ -14,7 +14,7 @@ cd telegram-anonymous-chat
 pip3 install -r requirements.txt
 ```
 *Setting up your bot config.py and bot apikey (from botfather) lalu
-*jalankan bot nya
+jalankan bot nya
 ---------
 
 
