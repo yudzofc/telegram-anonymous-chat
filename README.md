@@ -5,6 +5,7 @@ Simple Anonymous chat-bot Telegram
 
 ## FOR WINDOWS/VPS/RDP USER
 
+* Download And Instal Git
 * Download And Install python
 * Download And Install vscode 
 ```bash
