@@ -1,6 +1,3 @@
-
-# Bot menggunakan library amanobot
-
 # Anonymous chat-bot
 
 Simple Anonymous chat-bot Telegram
