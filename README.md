@@ -18,4 +18,4 @@ jalankan bot nya
 ---------
 
 
-NOTE: This project will not maintained after `27 June 2021`, that means no update. Feel free to anyone to continue this project :)
+NOTE: This project will not maintained after `27 August 2021`, that means no update. Feel free to anyone to continue this project :)
