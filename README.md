@@ -13,8 +13,7 @@ git clone https://github.com/Rianfirnanda/telegram-anonymous-chat.git
 cd telegram-anonymous-chat
 pip3 install -r requirements.txt
 ```
-Setting up your bot config.py and bot apikey (from botfather) lalu
-jalankan bot nya
+Setting up your bot config.py and bot apikey (from botfather) and run
 ---------
 
 
