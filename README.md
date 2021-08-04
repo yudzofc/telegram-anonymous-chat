@@ -1,24 +1,5 @@
 # Anonymous chat-bot
 
-Simple Anonymous chat-bot Telegram
-
-
-## FOR WINDOWS/VPS/RDP USER
-
-* Download And Instal Git
-* Download And Install python
-* Download And Install vscode 
-```bash
-git clone https://github.com/Rianfirnanda/telegram-anonymous-chat.git
-cd telegram-anonymous-chat
-pip3 install -r requirements.txt
-```
-Setting up your bot config.py and bot apikey (from botfather) and run
-
-
----------
-# CHATBOT
-
 Ini adalah repo untuk random chat bot atau biasa di kenal sebagai Anonymous Chat
 
 <b>
@@ -33,8 +14,31 @@ Ini adalah repo untuk random chat bot atau biasa di kenal sebagai Anonymous Chat
 ### bikin akun bot nya di [@botfather](https://t.me/botfather)
 
 
-### CREDIT
+
+# Installation
+
+Simple Anonymous chat-bot Telegram
+
+
+## FOR WINDOWS/VPS/RDP USER
+
+* Download And Instal Git => https://git-scm.com/downloads
+* Download And Install python => https://www.python.org/downloads/
+* Download And Install visual studio code => https://code.visualstudio.com/
+
+```bash
+git clone https://github.com/Rianfirnanda/telegram-anonymous-chat.git
+cd telegram-anonymous-chat
+pip3 install -r requirements.txt
+```
+Setting up your bot config.py and bot apikey (from botfather) and run
+
+
+
+
+### Credit
 * [RIAN](https://github.com/Rianfirnanda/telegram-anonymous-chat) - Telegram-anonymous-chat
+### Thanks To
 * [DAVI](https://github.com/davi78/chatbotdavi) - chatbotdavi
 
 
