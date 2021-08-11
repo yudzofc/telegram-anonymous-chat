@@ -13,7 +13,7 @@
 <a href="https://github.com/RianFirnanda/followers"><img title="Followers" src="https://img.shields.io/github/followers/RianFirnanda?color=red&style=flat-square"></a>
 <a href="https://github.com/RianFirnanda/megumikato2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/RianFirnanda/telegram-bot?color=blue&style=flat-square"></a>
 <a href="https://github.com/RianFirnanda/megumikato2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rianfirnanda/telegram-anonymous-chat?color=red&style=flat-square"></a>
-<a href="https://github.com/adimas999/megumikato2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Rianfirnanda/telegram-anonymous-chat?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/RianFirnanda/megumikato2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Rianfirnanda/telegram-anonymous-chat?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="maintened" src="https://img.shields.io/badge/maintained%3F-yes-green.svg?style=flat"></a>
 <a href="#"><img title="repo size" src="https://img.shields.io/github/repo-size/Rianfirnanda/telegram-anonymous-chat?style=flat-square"></a>
 </p>
