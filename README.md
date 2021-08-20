@@ -71,4 +71,3 @@ Setting up your bot config.py and bot apikey (from botfather) and run
 * [DAVI](https://github.com/davi78/chatbotdavi) - chatbotdavi
 
 
-NOTE: This project will not maintained after `27 August 2021`, that means no update. Feel free to anyone to continue this project :)
