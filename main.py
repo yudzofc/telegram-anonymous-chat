@@ -74,14 +74,10 @@ def handle(update):
                     bot.sendMessage(queue["occupied"][uid], "" + text)
 
             if 'photo' in update:
-                #papan = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="PESAN OTOMATIS", url="https://google.com")]])
                 captionphoto = update["caption"] if "caption" in update else None
                 photo = update['photo'][0]['file_id']
                 bot.sendPhoto(queue["occupied"][uid],
                               photo, caption=captionphoto)
-                # else:
-                #	photo = update['photo'][0]['file_id']
-                #	bot.sendPhoto(queue["occupied"][uid], photo)
 
             if 'video' in update:
                 captionvideo = update["caption"] if "caption" in update else None
@@ -131,21 +127,11 @@ def handle(update):
 
         if text == "/start" or text == "/refresh":
             if not uid in queue["occupied"]:
-                # with open('is.txt', 'r') as file:
-                #	user_ids = file.read()
-                #	if str(uid) not in user_ids:
-                #		with open('is.txt', 'w') as f:
-                #			f.write(user_ids+"\n"+str(uid))
-                #			keyboard1 = ReplyKeyboardRemove()
-                #			#keyboard = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="ɪɴsᴛᴀɢʀᴀᴍ", url="https://instagram.com/rianfirnandaa_"),InlineKeyboardButton(text="ᴛɪᴋᴛᴏᴋ", url="https://vm.tiktok.com/ZSJC6FWw2/")]])
-                #			bot.sendMessage(uid,"_⚡️ BOT CHAT ANONYMOUS ⚡️\n\nKAMU DAPAT MENEMUKAN TEMAN\nSECARA RANDOM 🦊 TEKAN [ /start ]_", parse_mode="MarkDown", reply_markup=keyboard1, reply_to_message_id=update['message_id'])
-                #	else:
-                #keyboard1 = ReplyKeyboardMarkup(keyboard=[['Search 🔍'],['Pengguna👤','MENU BOT✅']], resize_keyboard=True, one_time_keyboard=True)
                 keyboard = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://instagram.com/rianfirnandaa_"), InlineKeyboardButton(
                     text="ɢʀᴜᴘ ʙᴏᴛ", url="t.me/robogroup"), InlineKeyboardButton(text="ʙᴏᴛ ɴᴜʟɪꜱ", url="t.me/awakmalas_bot"), InlineKeyboardButton(text="ʙᴏᴛ ᴡᴀ", url="wa.me/6282298468671")]])
                 bot.sendMessage(uid, "🤖 𝗥𝗢𝗕𝗢 𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗖𝗛𝗔𝗧 🤖\n\n_🇮🇩 Semoga Kamu Dapet teman atau jodoh\n🇳🇿 I hope you can find a friend or a partner\n\n🤖 : untuk mencari teman obrolan gunakan perintah /search_",
                                 parse_mode='MarkDown', disable_web_page_preview=True, reply_markup=keyboard)
-                #bot.sendMessage(uid,"_[❗️] Follow sosial media dan support terus bot ini_",parse_mode="MarkDown", reply_markup=keyboard1)
+           
 
         if 'message_id' in update:
             if not uid in queue["occupied"]:
@@ -303,20 +289,6 @@ def handle(update):
                 dataweb[0].span.text, dataweb[1].span.text, dataweb[2].span.text)
             bot.sendMessage(uid, ouy, parse_mode='MarkDown')
 
-        # elif text == "Youtube▶️" or text == "/subscribe":
-        #	bot.sendMessage(uid, 'Yuk Nonton Video Video aku, Cek di button keyboard', reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-        #		[InlineKeyboardButton(text="SUBSCRIBE YOUTUBE", url='https://youtube.com/channel/UCE6TQ4yG8eNEiOzqRSfOu-w')],
-        #		[InlineKeyboardButton(text="FILM PENDEK", url="https://youtu.be/35wJMkvSlQU" )],
-        #		[InlineKeyboardButton(text="BOT JADWAL SHOLAT", url='https://youtu.be/YRcKu-kZd0o'), InlineKeyboardButton(text='NEW FITUR BOT', url='https://youtu.be/TKmSmDBLuos'), InlineKeyboardButton(text='DOWNLOAD VIDEO TIKTOK', url='https://youtu.be/P0iBcUAGuzE')],
-        #		[InlineKeyboardButton(text=">>",url="https://youtu.be/YRcKu-kZd0o")]
-        #	]))
-
-        # elif text == 'Link Kejutan':
-        #	bot.sendMessage(uid, 'Silahkan Klik Kejutan Dari aku by😙',reply_markup = InlineKeyboardMarkup(inline_keyboard=[
-         #                           [InlineKeyboardButton(text="Kejutan 1😍", url='https://realsht.mobi/V3Mpf'), InlineKeyboardButton(text="Kejutan 2😍",url='https://realsht.mobi/A3Zmz')],
-    #                            [InlineKeyboardButton(text="Kejutan 3😍", url='https://realsht.mobi/o2XuR')]
-         #                       ]
-         #                   ))
 
         elif text == '🔙 Main Menu':
             keyboard = ReplyKeyboardMarkup(keyboard=[['Search 🔍'], [
