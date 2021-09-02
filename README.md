@@ -61,13 +61,3 @@ cd telegram-anonymous-chat
 pip3 install -r requirements.txt
 ```
 Setting up your bot config.py and bot apikey (from botfather) and run
-
-
-
-
-### Credit
-* [RIAN](https://github.com/Rianfirnanda/telegram-anonymous-chat) - Telegram-anonymous-chat
-### Thanks To
-* [DAVI](https://github.com/davi78/chatbotdavi) - chatbotdavi
-
-
