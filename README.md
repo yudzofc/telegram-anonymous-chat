@@ -59,5 +59,6 @@ Simple Anonymous chat-bot Telegram
 git clone https://github.com/Rianfirnanda/telegram-anonymous-chat.git
 cd telegram-anonymous-chat
 pip3 install -r requirements.txt
+pip install amanobot
 ```
 Setting up your bot config.py and bot apikey (from botfather) and run
