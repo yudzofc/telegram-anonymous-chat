@@ -1,1 +1,1 @@
-TOKEN = "your bot token from botfather"
+TOKEN = "1948471326:AAG9MEWyNavs7JdqNceF5xqBYmuzBPDOEaY"
