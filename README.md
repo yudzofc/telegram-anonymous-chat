@@ -32,8 +32,7 @@
 Ini adalah repo untuk random chat bot atau biasa di kenal sebagai Anonymous Chat
 
 <b>
-<a href="https://heroku.com/deploy?template=https://github.com/Rianfirnanda/telegram-anonymous-chat"><img src="https://img.shields.io/badge/Deploy ke HEROKU-blue?style=badge&logo=heroku"width="310" height="50"/></a>
-</b>
+
 
 ### TEMUKAN KAMI DI TELEGRAM
 
