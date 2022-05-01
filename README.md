@@ -60,4 +60,4 @@ cd telegram-anonymous-chat
 pip3 install -r requirements.txt
 pip install amanobot
 ```
-Setting up your bot config.py and bot apikey (from botfather) and run
+Setting up your bot config.py and bot apikey (from botfather) and run using command py main.py
