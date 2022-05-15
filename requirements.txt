@@ -12,4 +12,4 @@ selenium-stealth==1.0.6
 soupsieve==2.2.1
 TikTokApi==3.9.9.1
 urllib3==1.26.6
-websockets==9.1
+websockets==10.3
