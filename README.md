@@ -1,7 +1,7 @@
 # Anonymous chat-bot
 
 <p align="center">
-<img src="https://i.pinimg.com/originals/2b/91/91/2b9191c0750915300106a457fddec474.gif" alt="GIF" width="300" height="300"/>
+<img src="https://i.pinimg.com/originals/2b/91/91/2b9191c0750915300106a457fddec474.gif" alt="GIF" width="300" height="250"/>
 </p>
 <p align="center">
 <a href="#"><img title="Robo Assistant" src="https://img.shields.io/badge/Telegram-Bot-blue?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
