@@ -1,7 +1,7 @@
 # Anonymous chat-bot
 
 <p align="center">
-<img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/217072214/original/e44ec574daf595ac848041f7058ec330ff3fcfee/write-telegram-bot-in-python.png" alt="GIF" width="128" height="128"/>
+<img src="https://i.pinimg.com/originals/2b/91/91/2b9191c0750915300106a457fddec474.gif" alt="GIF" width="128" height="128"/>
 </p>
 <p align="center">
 <a href="#"><img title="Robo Assistant" src="https://img.shields.io/badge/Telegram-Bot-blue?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
