@@ -9,7 +9,7 @@ pytz==2022.1
 requests==2.25.1
 selenium==4.3.0
 selenium-stealth==1.0.6
-soupsieve==2.2.1
+soupsieve==2.3.2.post1
 TikTokApi==5.2.1
 urllib3==1.26.10
 websockets==10.3
